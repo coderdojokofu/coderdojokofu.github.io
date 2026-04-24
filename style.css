@@ -217,6 +217,9 @@ h2 {
 
 .tag-member { background: #e0f2fe; color: #0369a1; }
 .tag-mentor { background: #fef3c7; color: #92400e; }
+.tag-tech { background: #f1f5f9; color: #475569; }
+
+.project-page-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
 
 .project-grid {
   display: grid;
