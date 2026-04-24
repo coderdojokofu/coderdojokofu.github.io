@@ -1,5 +1,165 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://coderdojokofu.connpass.com/</title>
-<meta http-equiv="refresh" content="0; URL=https://coderdojokofu.connpass.com/">
-<link rel="canonical" href=https://coderdojokofu.connpass.com/">
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoderDojo甲府</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="#">CoderDojo甲府</a>
+  <ul class="nav-links">
+    <li><a href="#about">CoderDojoとは</a></li>
+    <li><a href="#event">次回イベント</a></li>
+    <li><a href="#projects">プロジェクト</a></li>
+    <li><a href="#join">参加する</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <img src="logo.png" alt="CoderDojo甲府 ロゴ" class="hero-logo">
+  <h1>CoderDojo甲府</h1>
+  <p class="tagline">子どもたちのための、無料プログラミングクラブ</p>
+  <p class="tagline-en">A free coding club for young people in Kofu</p>
+  <div class="hero-btns">
+    <a href="#join" class="btn btn-white">参加してみる</a>
+    <a href="https://coderdojokofu.connpass.com/" target="_blank" rel="noopener" class="btn btn-outline">Connpassで見る</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">About</p>
+  <h2>CoderDojoとは</h2>
+  <p class="h2-en">What is CoderDojo?</p>
+  <p>
+    CoderDojoは、7〜17歳の子どもたちを対象とした<strong>無料のプログラミングクラブ</strong>です。
+    世界中に2,000以上のクラブがあり、甲府でも定期的に開催しています。
+    プログラミングの経験は一切不要。自分のペースで学びながら、作りたいものを作れます。
+  </p>
+  <div class="about-grid">
+    <div class="about-card">
+      <h3>🆓 無料で参加できる</h3>
+      <p>参加費は完全無料です。パソコンの貸し出しもあります。</p>
+    </div>
+    <div class="about-card">
+      <h3>💡 自分のペースで学ぶ</h3>
+      <p>Scratch・HTML・Python など、好きなことを自由に学べます。カリキュラムはありません。</p>
+    </div>
+    <div class="about-card">
+      <h3>👥 メンターがサポート</h3>
+      <p>経験豊富なメンターが一緒に考え、ヒントを出しながらサポートします。</p>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT EVENT -->
+<div class="full-bleed event-wrapper">
+  <section id="event">
+    <p class="section-label">Next Event</p>
+    <h2>次回イベント</h2>
+    <p class="h2-en">Upcoming Session</p>
+    <div class="event-card">
+      <div class="event-date">
+        <!-- TODO: populated by GitHub Actions -->
+        <div class="month">---</div>
+        <div class="day">--</div>
+      </div>
+      <div class="event-info">
+        <h3>次回の開催日は Connpass でご確認ください</h3>
+        <p class="event-place">📍 会場・時間は各イベントページをご確認ください</p>
+        <p class="en">Check Connpass for the latest event details, location, and registration.</p>
+        <div class="event-actions">
+          <a href="https://coderdojokofu.connpass.com/" target="_blank" rel="noopener" class="btn btn-purple">
+            Connpass で登録する →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">Projects</p>
+  <h2>プロジェクト</h2>
+  <p class="h2-en">Projects by members &amp; mentors</p>
+  <p class="projects-intro">
+    クラブメンバーの作品と、深い質問に答えるためにメンターが作ったプロジェクトを紹介します。
+  </p>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <span class="tag tag-mentor">メンター / Mentor</span>
+      <span class="tag tag-tech">Roblox Studio</span>
+      <h3>Camera Shake</h3>
+      <p>Roblox Studio でリアルなカメラシェイクエフェクトを実装する方法を紹介します。</p>
+      <div class="project-footer">
+        <span class="author">by Mat</span>
+        <a href="projects/camera-shake/" class="project-link">見てみる →</a>
+      </div>
+    </div>
+
+    <!-- MEMBER PROJECT EXAMPLE -->
+    <div class="project-card">
+      <span class="tag tag-member">メンバー / Member</span>
+      <h3>はじめての Scratch ゲーム</h3>
+      <p>自分で考えたキャラクターが動き回るアクションゲームです。</p>
+      <div class="project-footer">
+        <span class="author">by ニンジャ名</span>
+        <a href="#" class="project-link">遊んでみる →</a>
+      </div>
+    </div>
+
+    <!-- ADD MORE PROJECT CARDS HERE -->
+
+  </div>
+</section>
+
+<!-- JOIN -->
+<div class="full-bleed join-wrapper">
+  <section id="join">
+    <p class="section-label">Join Us</p>
+    <h2>参加してみませんか？</h2>
+    <p>
+      CoderDojo甲府は、プログラミングに興味のある子どもたちをいつでも歓迎しています。
+      経験・年齢は問いません。まずは気軽に参加してみてください！
+    </p>
+    <span class="en">All skill levels welcome. Come as you are — no experience needed.</span>
+    <div>
+      <a href="https://coderdojokofu.connpass.com/" target="_blank" rel="noopener" class="btn btn-purple">
+        Connpass でイベントに申し込む
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>CoderDojo甲府 &mdash; <a href="https://coderdojo.jp/" target="_blank" rel="noopener">CoderDojo Foundation</a> のチャーター道場</p>
+  <p>Proudly part of the global CoderDojo community</p>
+</footer>
+
+<script>
+  fetch('event.json')
+    .then(r => r.json())
+    .then(e => {
+      document.querySelector('.event-date .month').textContent = e.month;
+      document.querySelector('.event-date .day').textContent = e.day;
+      document.querySelector('.event-info h3').textContent = e.title;
+      if (e.place) {
+        document.querySelector('.event-info .event-place').textContent = '📍 ' + e.place;
+      }
+      const link = document.querySelector('.event-actions a');
+      link.href = e.url;
+    })
+    .catch(() => {});
+</script>
+</body>
+</html>
